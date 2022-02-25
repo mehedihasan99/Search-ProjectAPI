@@ -9,6 +9,7 @@ const searchFood =() =>{
 
 const searchResult = searchFood =>{
     const foodGroup = document.getElementById("foodGroup");
+    foodGroup.textContent = "";
     searchFood.forEach( food => {
         console.log(food)
         const div = document.createElement("div");
